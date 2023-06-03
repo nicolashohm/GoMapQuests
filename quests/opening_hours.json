@@ -1,0 +1,61 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🕖",
+      "title" : "Öffnungszeiten hinzufügen",
+      "tagKeys" : [
+        "opening_hours"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "shop",
+          "tagValue" : "*",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "opening_hours",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🕖",
+      "title" : "Öffnungszeiten hinzufügen",
+      "tagKeys" : [
+        "opening_hours"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "*",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "opening_hours",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}

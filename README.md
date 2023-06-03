@@ -13,3 +13,4 @@ Die Quests liegen unter `quests/` in einzelnen json Dateien, somit kann jede Que
 | Sport zu Pitch hinzufügen | Mehrere quests um fehlende keys für leisure=pitch hinzuzufügen | [leisure_pitch.json](quests/leisure_pitch.json) |
 | Shop type und name hinzufügen | Prüft ob ein `shop=*` keinen namen hat bzw. nur mit `shop=yes` getagged ist | [shop.json](quests/shop.json) |
 | Fahrradparkplatz Überdachung/Beleuchtung hinzufügen | Mehrere quests für Fahrradparkplätze | [bike_parking.json](quests/bike_parking.json) |
+| Öffnungszeiten hinzufügen | Öffnungszeiten hinzufügen mit besseren Filtern | [opening_hours.json](quests/opening_hours.json) |
