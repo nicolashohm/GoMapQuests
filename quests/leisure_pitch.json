@@ -1,0 +1,94 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🏟️",
+      "title" : "Sport zu Pitch hinzufügen",
+      "tagKeys" : [
+        "sport",
+        "surface",
+        "lit"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "leisure",
+          "tagValue" : "pitch",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "sport",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🏟️",
+      "title" : "Oberfläche zu Pitch hinzufügen",
+      "tagKeys" : [
+        "sport",
+        "surface",
+        "lit"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "leisure",
+          "tagValue" : "pitch",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "surface",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🏟️",
+      "title" : "Licht zu Pitch hinzufügen",
+      "tagKeys" : [
+        "sport",
+        "surface",
+        "lit"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "leisure",
+          "tagValue" : "pitch",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "lit",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}
