@@ -1,0 +1,61 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🚴‍♀️",
+      "title" : "Fahrradparkplatz Überdachung hinzufügen",
+      "tagKeys" : [
+        "name",
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "bicycle_parking",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "covered",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🚴‍♀️",
+      "title" : "Fahrradparkplatz Beleuchtung hinzufügen",
+      "tagKeys" : [
+        "lit",
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "bicycle_parking",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "lit",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}
