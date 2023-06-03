@@ -2,7 +2,7 @@
   "filterQuestList" : [
     {
       "label" : "🕖",
-      "title" : "Öffnungszeiten hinzufügen",
+      "title" : "Öffnungszeiten für Geschäfte hinzufügen",
       "tagKeys" : [
         "opening_hours"
       ],
@@ -37,7 +37,151 @@
         {
           "relation" : "=",
           "tagKey" : "amenity",
-          "tagValue" : "*",
+          "tagValue" : "marketplace",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "pharmacy",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "library",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "cafe",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "restaurant",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "fast_food",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "post_office",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "fuel",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "bank",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "bar",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "dentist",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "doctors",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "ice_cream",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "pub",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "veterinary",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "car_rental",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "bicycle_repair_station",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "clinic",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "townhall",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "car_sharing",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "cinema",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "arts_centre",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "atm",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "car_wash",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "toilets",
           "included" : "include"
         },
         {
