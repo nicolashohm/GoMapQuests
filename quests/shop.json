@@ -1,0 +1,55 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🏬",
+      "title" : "Shop name hinzufügen",
+      "tagKeys" : [
+        "name",
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "shop",
+          "tagValue" : "*",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "name",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🏬",
+      "title" : "Shop type hinzufügen",
+      "tagKeys" : [
+        "name",
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "shop",
+          "tagValue" : "yes",
+          "included" : "include"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}

@@ -9,6 +9,6 @@ Die Quests liegen unter `quests/` in einzelnen json Dateien, somit kann jede Que
 
 | Bezeichnung | Beschreibung | Datei |
 | ----------- | ------------ | ----- |
-| Straßennamen Hinzufügen | Prüft ob der name gesetzt ist wenn der key highway mit ausgewählten werten gesetzt ist. | [street_name.json](quests/street_name.json) |
+| Straßennamen hinzufügen | Prüft ob der name gesetzt ist wenn der key highway mit ausgewählten werten gesetzt ist. | [street_name.json](quests/street_name.json) |
 | Sport zu Pitch hinzufügen | Mehrere quests um fehlende keys für leisure=pitch hinzuzufügen | [leisure_pitch.json](quests/leisure_pitch.json) |
-
+| Shop type und name hinzufügen | Prüft ob ein `shop=*` keinen namen hat bzw. nur mit `shop=yes` getagged ist | [shop.json](quests/shop.json) |
