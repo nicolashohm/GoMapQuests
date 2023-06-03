@@ -1,0 +1,64 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🛣️",
+      "title" : "Straßennamen Hinzufügen",
+      "tagKeys" : [
+        "name"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "highway",
+          "tagValue" : "primary",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "highway",
+          "tagValue" : "secondary",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "highway",
+          "tagValue" : "tertiary",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "highway",
+          "tagValue" : "unclassified",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "highway",
+          "tagValue" : "residential",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "highway",
+          "tagValue" : "living_street",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "name",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : false,
+        "point" : false,
+        "vertex" : false
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}
