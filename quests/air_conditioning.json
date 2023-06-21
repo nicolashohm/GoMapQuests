@@ -1,0 +1,85 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🥶",
+      "title" : "Klimaanlage hinzufügen (amenity)",
+      "tagKeys" : [
+        "air_conditioning"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "air_conditioning",
+          "tagValue" : "*",
+          "included" : "exclude"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "library",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "restaurant",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "fast_food",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "cafe",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "pharmacy",
+          "included" : "include"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🥶",
+      "title" : "Klimaanlage hinzufügen (shop)",
+      "tagKeys" : [
+        "air_conditioning"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "air_conditioning",
+          "tagValue" : "*",
+          "included" : "exclude"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "shop",
+          "tagValue" : "*",
+          "included" : "include"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}
