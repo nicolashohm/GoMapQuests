@@ -2,7 +2,7 @@
   "filterQuestList" : [
     {
       "label" : "🕖",
-      "title" : "Öffnungszeiten für Geschäfte hinzufügen",
+      "title" : "Öffnungszeiten hinzufügen (shop)",
       "tagKeys" : [
         "opening_hours"
       ],
@@ -29,7 +29,7 @@
     },
     {
       "label" : "🕖",
-      "title" : "Öffnungszeiten hinzufügen",
+      "title" : "Öffnungszeiten hinzufügen (amenity)",
       "tagKeys" : [
         "opening_hours"
       ],
