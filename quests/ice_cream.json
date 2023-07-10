@@ -1,0 +1,34 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🍦",
+      "title" : "Eis verkauf in Cafes prüfen",
+      "tagKeys" : [
+        "cuisine"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "cuisine",
+          "tagValue" : "ice_cream",
+          "included" : "exclude"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "cafe",
+          "included" : "include"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}
