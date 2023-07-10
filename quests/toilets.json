@@ -1,0 +1,88 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🚽",
+      "title" : "Toiletten arten hinzufügen",
+      "tagKeys" : [
+        "toilets:position"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "toilets:position",
+          "tagValue" : "*",
+          "included" : "exclude"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "toilets",
+          "included" : "include"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🍼",
+      "title" : "Wickeltisch hinzufügen (Toiletten)",
+      "tagKeys" : [
+        "changing_table"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "changing_table",
+          "tagValue" : "*",
+          "included" : "exclude"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "toilets",
+          "included" : "include"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🍼",
+      "title" : "Wickeltisch hinzufügen (andere)",
+      "tagKeys" : [
+        "changing_table"
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "changing_table",
+          "tagValue" : "*",
+          "included" : "exclude"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "toilets",
+          "tagValue" : "*",
+          "included" : "include"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}
