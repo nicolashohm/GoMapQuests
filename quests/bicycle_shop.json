@@ -1,0 +1,61 @@
+{
+  "filterQuestList" : [
+    {
+      "label" : "🚲",
+      "title" : "Fahrradpumpe bei Fahrradgeschäft hinzufügen",
+      "tagKeys" : [
+        "service:bicycle:pump",
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "shop",
+          "tagValue" : "bicycle",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "service:bicycle:pump",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    },
+    {
+      "label" : "🚲",
+      "title" : "Fahrradpumpe bei Reparaturstation hinzufügen",
+      "tagKeys" : [
+        "service:bicycle:pump",
+      ],
+      "filters" : [
+        {
+          "relation" : "=",
+          "tagKey" : "amenity",
+          "tagValue" : "bicycle_repair_station",
+          "included" : "include"
+        },
+        {
+          "relation" : "=",
+          "tagKey" : "service:bicycle:pump",
+          "tagValue" : "*",
+          "included" : "exclude"
+        }
+      ],
+      "geometry" : {
+        "line" : true,
+        "area" : true,
+        "point" : true,
+        "vertex" : true
+      }
+    }
+  ],
+  "featureQuestList" : [
+
+  ]
+}
